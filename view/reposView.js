@@ -3,7 +3,6 @@ import { View } from "./view";
 class Reposetory extends View {
   _parentEl = document.querySelector(".reposetory");
   _generateMarkup() {
-    console.log(this._data.description);
     return this._data
       .map(
         (repo) => `
